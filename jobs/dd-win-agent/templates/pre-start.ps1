@@ -1,0 +1,1 @@
+powershell Unblock-File .\Datadog-installer.ps1 -APIKey b28823b1e71c44ddba8ebf76c1f1f919
