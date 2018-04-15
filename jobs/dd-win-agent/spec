@@ -1,8 +1,9 @@
 ---
 name: dd-win-agent
 
-templates: {}
+description: "This is a custom add on for installing the Data Dog agent on a Bosh managed Windows VM"
+
+templates:
+  start.ps1: bin/start.ps1
 
 packages: []
-
-properties: {}
