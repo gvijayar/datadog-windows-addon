@@ -1,5 +1,5 @@
 while ($true)
 {
-  Write-Host "I am executing a BOSH job. FOO=${Env:FOO}"
-  Start-Sleep 75.0
+  Write-Host "Executing a BOSH job"
+  Start-Sleep 120.0
 }
