@@ -1,7 +1,7 @@
 {
   "processes": [
     {
-      "name": "say-hello",
+      "name": "dd-agent-monitoring",
       "executable": "powershell",
       "args": [ "/var/vcap/jobs/dd-win-agent/bin/start.ps1" ],
       "env": {
