@@ -20,7 +20,7 @@
 [CmdletBinding()]
 Param(
 
-    [string]   $APIKey = "b28823b1e71c44ddba8ebf76c1f1f919",
+    [string]   $APIKey = "XXXXXXXXXXXXXXXXXXXXXXX",
 
     [ValidateScript ( { Test-Path $_ } ) ]
     [string]   $Location = "C:\Windows\Temp",
