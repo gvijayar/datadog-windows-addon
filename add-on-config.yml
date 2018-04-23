@@ -1,0 +1,20 @@
+releases:
+- name: clamav
+  version: 1.4.5
+- name: datadog-windows
+  version: 0+dev.5
+addons:
+- name: datadog-agent
+  jobs:
+  - name: dd-win-agent
+    release: datadog-windows
+  include:
+    stemcell:
+    - os: windows2012R2
+- name: clamav-windows
+  jobs:
+  - name: clamav-windows
+    release: clamav
+  include:
+    stemcell:
+    - os: windows2012R2
